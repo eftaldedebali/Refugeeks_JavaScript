@@ -8,3 +8,5 @@ document.getElementsByClassName("cursor-pointer md:hidden block")[0].setAttribut
 function menuUnhidden(){
     document.getElementById("menu").classList.toggle("hidden");
 }
+
+//menuson
