@@ -8,3 +8,14 @@
  * https://developer.mozilla.org/de/docs/Web/API/Window/localStorage
  * 
  */
+
+var x;
+for ( x = 0; x < 8; x++){
+  document.parentElement  
+document.getElementsByClassName("like-btn")[x].addEventListener("click",fx)
+        }
+ function fx(){
+    
+    this.classList.toggle('liked');
+    
+}
