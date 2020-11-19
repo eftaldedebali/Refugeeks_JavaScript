@@ -35,3 +35,4 @@ function init() {
   mySwiper.slideNext();
 }
 
+//son durum
