@@ -8,6 +8,30 @@
  * 
  */
 
-document.addEventListener('DOMContentLoaded', function() {
-  console.log('DOM ready');
-});
+
+document.addEventListener('DOMContentLoaded', init);
+
+function init() {
+ // console.log('DOM ready');
+  document.querySelector(".swiper-button-next").style.color="#718096";
+  document.querySelector(".swiper-button-prev").style.color="#718096";
+
+  
+  
+  var mySwiper = new Swiper('.swiper-container', {
+    speed: 400,
+    spaceBetween: 100,
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    }
+  });
+  
+  mySwiper.slideNext();
+}
+
