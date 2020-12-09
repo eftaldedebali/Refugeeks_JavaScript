@@ -24,6 +24,7 @@ function init() {
     loop: true,
     pagination: {
       el: '.swiper-pagination',
+      //type: "fraction", nokta yerine sayi koyuyor..
     },
     // Navigation arrows
     navigation: {
